@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: AI Customer Discovery Pipeline
+message: "If you use this repository, please cite it using the metadata below."
+type: software
+
+authors:
+  - family-names: Malveira Ferreira
+    given-names: Ana Carolina 
+
+repository-code: https://github.com/acmalveira/ai-customer-discovery-pipeline
+
+license: MIT
