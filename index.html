@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação de Assistente de IA para Desenvolvimento de Websites</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <h1>Avaliação de Assistente de IA para Desenvolvimento de Websites</h1>
+        <p>
+            Pesquisa de Mestrado da Universidade Federal de Itajubá (UNIFEI)
+            <br>
+            Tempo estimado: 10 a 15 minutos
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>Antes de começar</h2>
+
+        <p>
+            Antes de iniciar a avaliação, responda aos formulários abaixo.
+        </p>
+
+        <div class="form-links">
+
+            <a href="https://forms.gle/ZghQ2PtDBURTFcqFA" target="_blank">
+                TCLE (Termo de Consentimento)
+            </a>
+
+            <a href="https://forms.gle/oxdo29qne7Yyvets5" target="_blank">
+                Questionário Inicial
+            </a>
+
+            <a href="https://forms.gle/cr1yNeeRsci4WMYS6" target="_blank">
+                Questionário Pré-Uso
+            </a>
+
+        </div>
+
+        <div class="confirmation">
+            <label>
+                <input type="checkbox" id="confirmacao">
+                Confirmo que respondi os formulários acima.
+            </label>
+        </div>
+
+        <a
+            id="botaoAgente"
+            class="primary-button"
+            href="#"
+        >
+            Iniciar Conversa com a IA
+        </a>
+
+    </section>
+
+    <section class="card">
+
+        <h2>Após receber sua proposta</h2>
+
+        <p>
+            Você receberá um e-mail com instruções para visualizar sua proposta personalizada.
+        </p>
+
+        <p>
+            Após visualizar a proposta, responda ao questionário final de avaliação.
+        </p>
+
+        <a
+            class="secondary-button"
+            href="https://forms.gle/8XB4M5opGZsxqrhg9"
+            target="_blank"
+        >
+            Questionário Pós-Uso
+        </a>
+
+    </section>
+
+    <footer>
+
+        <p><strong>Ana Carolina Malveira Ferreira</strong></p>
+
+        <p>
+            Programa de Pós-Graduação em Ciência e Tecnologia da Computação
+        </p>
+
+        <p>
+            Universidade Federal de Itajubá (UNIFEI)
+        </p>
+
+        <p>
+            Orientador: Prof. Dr. Adler Diniz de Souza
+        </p>
+
+    </footer>
+
+</div>
+
+<script>
+
+const checkbox = document.getElementById('confirmacao');
+const botao = document.getElementById('botaoAgente');
+
+const linkAgente =
+'https://chatgpt.com/g/g-683120a06bec8191a72425d9903412cd-agente-integrado-qualificacao-diagnostico';
+
+botao.addEventListener('click', function(event){
+
+    if(!checkbox.checked){
+        event.preventDefault();
+        alert('Confirme que respondeu os formulários antes de iniciar a avaliação.');
+        return;
+    }
+
+    window.open(linkAgente, '_blank');
+
+});
+
+</script>
+
+</body>
+</html>
