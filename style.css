@@ -172,3 +172,25 @@ footer p {
 
 }
 
+.important-note {
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 12px;
+    padding: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.important-note strong {
+    display: block;
+    margin-bottom: 10px;
+    color: #1e40af;
+}
+
+.important-note p {
+    margin-bottom: 8px;
+}
+
+.important-note p:last-child {
+    margin-bottom: 0;
+}
