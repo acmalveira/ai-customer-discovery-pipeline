@@ -109,15 +109,16 @@ const botao = document.getElementById('botaoAgente');
 const linkAgente =
 'https://chatgpt.com/g/g-683120a06bec8191a72425d9903412cd-agente-integrado-qualificacao-diagnostico';
 
-botao.addEventListener('click', function(event){
+checkbox.addEventListener('change', function(){
 
-    if(!checkbox.checked){
-        event.preventDefault();
-        alert('Confirme que respondeu os formulários antes de iniciar a avaliação.');
-        return;
+    if(this.checked){
+        botao.classList.remove('disabled');
+        botao.href = linkAgente;
+        botao.target = '_blank';
+    } else {
+        botao.classList.add('disabled');
+        botao.href = '#';
     }
-
-    window.open(linkAgente, '_blank');
 
 });
 
