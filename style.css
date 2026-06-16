@@ -171,3 +171,9 @@ footer p {
     }
 
 }
+
+.disabled {
+    background: #9ca3af !important;
+    cursor: not-allowed;
+    pointer-events: none;
+}
