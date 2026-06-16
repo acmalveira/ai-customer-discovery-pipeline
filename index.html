@@ -50,11 +50,11 @@
         </div>
 
         <a
-            id="botaoAgente"
-            class="primary-button disabled"
-            href="#"
+            class="primary-button"
+            href="https://chatgpt.com/g/g-683120a06bec8191a72425d9903412cd-agente-integrado-qualificacao-diagnostico"
+            target="_blank"
         >
-            Iniciar Conversa com a IA
+        Iniciar Conversa com a IA
         </a>
 
     </section>
@@ -101,28 +101,7 @@
 
 </div>
 
-<script>
 
-const checkbox = document.getElementById('confirmacao');
-const botao = document.getElementById('botaoAgente');
-
-const linkAgente =
-'https://chatgpt.com/g/g-683120a06bec8191a72425d9903412cd-agente-integrado-qualificacao-diagnostico';
-
-checkbox.addEventListener('change', function(){
-
-    if(this.checked){
-        botao.classList.remove('disabled');
-        botao.href = linkAgente;
-        botao.target = '_blank';
-    } else {
-        botao.classList.add('disabled');
-        botao.href = '#';
-    }
-
-});
-
-</script>
 
 </body>
 </html>
