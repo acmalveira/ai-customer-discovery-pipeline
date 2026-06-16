@@ -1,0 +1,61 @@
+Carimbo de data/hora,01 - As perguntas feitas pela ferramenta ajudaram a identificar minhas necessidades.,02 - O briefing final reflete corretamente minhas expectativas e objetivos.,03 - A ferramenta facilitou meu entendimento sobre o serviço de desenvolvimento de websites.,04 - Considero mais provável contratar o serviço após utilizar a ferramenta.,05 - As interações foram fáceis de compreender e seguir.,"06 - A proposta visual gerada é adequada e representa bem o que foi discutido. 
+*caso não tenha recebido uma proposta visual, basta deixar esta pergunta em branco.",07 - A ferramenta apresentou diferenciais e benefícios da solução de forma clara.,08 - Sinto que compreendo melhor minha necessidade após a interação.,"Você teve alguma dificuldade, interrupção ou dúvida durante o uso da ferramenta? Descreva.",Comentários adicionais
+04/06/2026 16:04:00,4,4,4,4,3,3,3,4,"A interação em alguns pontos não era muito intuitiva, senti falta de mais clareza principalmente na parte final das interações. A visualização final da proposta em formato de imagem não apareceu. ","Achei interessante a proposta do estudo, os diálogos foram bem fluidos, senti a falta de uma imagem mais clara com valores da proposta sendo a resposta final, nos diálogos foram discutidos valores e orçamentos, fatos que não foram transmitidos na proposta final em formato de imagem. No mais gostei das interações, estão de parabéns!"
+04/06/2026 23:48:37,5,5,5,5,5,5,5,5,"A utilização foi excelente e fica bem claro para o usuário qual o próximo passo e o que ele deve fazer. tive apenas uma interrupção, que foi após enviar o email para visualizar a proposta, recebi ""Estou buscando sua proposta com o e-mail informado."", mas finalizou a fala. Foi preciso perguntar ao chat se já havia encontrado, para que a conversa continuasse.",
+05/06/2026 10:31:06,4,3,3,3,3,2,4,4,"Tive dificuldade no agente de apresentação. Em dois momentos, pelo mobile, eu recebia a confirmação que receberia a proposta visual e o agente interrompia e nada chegava. Isso se repetiu até que eu insistisse mais na conversa, para ai sim conseguir o resultado. No fim das contas ele me mandou o link com a imagem e consegui visualizar depois de 2~3 interações.
+
+Outro problema é a transição entre agentes. Creio que isso possa causar certa confusão, vejo isso em outros produtos e honestamente não gosto da abordagem, visto que preciso ficar transicionando (apesar de não ser o caso aqui)","Eu gostei da ideia de receber a proposta visual, mas alguns pontos:
+
+1) Minha empesa já tem um branding, cores, logo e marca. O agente nem a proposta abordaram isso e me entregaram um branding genérico. Acho que esse é um ponto de extrema atenção, como a empresa quer se comunicar e ser vista? Se não tiver essa informação, pode soar genérico demais ou fazer com que a IA alucine
+Vão ter clientes com isso pronto (como eu) e sem isso. 
+
+2) Eu deixaria, talvez, a proposta visual ser um site em si de fato interativo. Teria que ver o custo, mas daria pra elaborar um prompt e jogar em um lovable, figma make ou qualquer coisa da vida e gerar um, mesmo que seja um protótipo de baixa fidelidade
+
+3) A exp de ter que permitir o acesso a terceiros no chat gpt é meio ruim, um leigo pode se sentir confuso ou ameaçado. Provavelmente seria contornável com uma solução própria usando APIs 
+
+4) Talvez, muito talvez, o orçamento final/proposta poderia ser um pouco mais bem elaborado visualmente, com a identidade da empresa contratada, sendo um documento/PDF ou até mesmo um site
+"
+05/06/2026 13:28:44,5,5,5,4,3,5,5,5,"Tive dificuldades para receber o email (até tive que falar com a Ana no whatsapp para recebr o email depois) e tive problemas para seguir com a conversa na apresentação da proposta (acho que tive algum problema de conexão com o Chat GPT) e tive que abrir a imagem em uma nova guia consultando o link que veio na resposta da chamada da tool eo3ahvlc991k246_m_pipedream_net__jit_plugin.infosDoLead, mas isso eu acho que foi por conta do meu problema de conxeão","No geral achei a experiência muito boa, mas precisa desvincular do chat GPT para ter mais controle do fluxo de conversação e do tratamento de erros.
+
+Uma sugestão que eu daria para melhorar a experiência do usuário é já começar o segundo chat com uma mensagem que parte do BOT em vez de ter que falar alguma coisa para ele pedir o email."
+05/06/2026 17:49:35,4,4,4,4,5,3,4,4,"Só achei um pouco demorado para entregar as respostas. esperava q a IA oferecesse opções mais diretas de ferramentas como banco, chat, gps. Acho q seria legal ela identificar mais as tecnologias q serão adotadas, pq pode ser q o cliente nao tenha esse conhecimento, entao acredito q facilitar a descoberta de pluggins e funcionalidades já existentes.",Boa sorte na pesquisa :D
+05/06/2026 18:18:00,4,3,4,3,5,2,3,4,Não,"Pela descrição: 
+Veja como suas ideias ganham forma. Este assistente apresenta uma proposta visual personalizada com base no seu diagnóstico e mostra, de forma clara, como o site pode impulsionar o seu negócio.
+
+Pensei que criaria uma UI para mim. Entretanto, achei ambos os agentes bem interessantes!"
+07/06/2026 18:03:04,5,5,5,5,5,5,5,5,"Não, sem dificuldades, funcionou perfeitamente","Talvez algo que possa ajudar é especialmente voltado a como responder as perguntas do agente mais facilmente. Hoje o agente faz perguntas muito boas e realmente ajuda a direcionar o usuário, porém, a única forma de responder essas perguntas é digitar aquilo que o agente acabou de escrever. Por exemplo, no meu site de notícias de automobilismo, o agente me perguntou:
+==============================================================
+[Agente]: Agora queria entender melhor a visão do produto:
+
+🏎️ Além das notícias, quais recursos você gostaria de ter no RaceHub desde o início?
+
+Por exemplo:
+
+Calendário de corridas
+Resultados de provas
+Classificações de campeonatos
+Newsletter
+Busca avançada
+Área de pilotos/equipes
+Apenas notícias inicialmente
+
+Pode listar os que considera mais importantes para a primeira versão.
+
+[usuário]:
+Calendário, resultados, classificações, newsletter, busca avançada, area de pilotos/equipes
+===============================================================
+
+Vemos que no exemplo acima, o usuário teve que digitar todas opções manualmente, pode ser interessante considerar caixas de marcar ""checkbox"" para as opções, de modo que o usuário possa simplesmente marcar as opções que quer. Além de uma útima opção chamada ""outras: <digite sua resposta>"" para ainda manter ao usuário a possibilidade de digitar.
+Outra opção seria deixar sugestões de respostas ao usuário, de forma que ele possa interegir com um ou poucos cliques.
+
+Em resumo, a qualidade das sugestões do agente é muito boa, são ótimas sugestões e ótimas perguntas, somente a interação com o usuário e maneira de responder a essas sugestões que creio que pode ser um pouco facilitado com as checkboxes.
+
+No mais, parabéns pelo trabalho!
+Obrigado,
+Mateus
+
+"
+09/06/2026 10:46:59,3,4,2,5,5,5,2,4,,"Eu achei interessante a ideia, mas parece algo que qualquer um consegue fazer com um prompt bem feito, principalmente com ferramentas melhores do que o chat got, onde eles te entregam até mesmo o código do site pronto, mas a ideia é muito boa"
+09/06/2026 13:49:13,5,3,5,3,5,3,5,5,,A ferramenta não leva muito em consideração a identidade visual e a mensagem que queremos passar com a marca. Também alucinou parcerias no design que não existem hoje.
+11/06/2026 11:16:54,5,1,1,1,5,1,3,5,"Em alguns momentos a ferramenta ficava carregando eternamente, pedindo para aguardar ou recarregar a página. Só me toquei que poderia olhar o json para ver o link da imagem quando me avisaram sobre","Gostei que a IA fez boas perguntas sobre o site e falou de features que eu não teria pensado sem a ajuda dela.
+Não gostei que a proposta final não tinha relação alguma com as informações que passei, o que quebrou minhas expectativas: pedi um site para portfólio de jogos mas a proposta final foi um site de empresa de energia solar."
